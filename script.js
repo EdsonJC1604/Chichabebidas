@@ -44,7 +44,7 @@ const bebidasData = [
         nombre: 'Tequila Sunrise', 
         categoria: 'con-alcohol',
         subcategoria: 'tequila',
-        icono: 'teequila-sunrise.jpeg', // Ajustado a tu archivo real con doble "e"
+        icono: 'teequila-sunrise.png', // Ajustado a tu archivo real con doble "e"
         imagenMain: 'teequila-sunrise-main.jpeg',
         descripcion: 'El Tequila Sunrise es un cóctel clásico elaborado con tequila, jugo de naranja y jarabe de granadina. Reconocido por su efecto visual en degradado —que evoca un amanecer—, combina sabores cítricos y dulces en una bebida refrescante, símbolo de la coctelería de los años setenta.',
         detallesHTML: `
