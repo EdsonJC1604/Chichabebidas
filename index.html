@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chichabebidas - Menú Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <header class="main-header">
+            <button id="btn-logo" class="logo-back-btn" title="Regresar al Menú Principal">
+                <div class="logo-ellipse">
+                    <img src="imagenes/Logo.png" alt="Chichabebidas Logo">
+                </div>
+            </button>
+            
+            <h1 class="main-title">CHICHABEBIDAS</h1>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Buscar...">
+                <ul id="search-results" class="search-dropdown hidden"></ul>
+            </div>
+        </header>
+
+        <div class="main-content">
+            
+            <aside class="sidebar-left">
+                <div id="dynamic-menu-container" class="category-buttons">
+                    <button class="category-btn" data-category="con-alcohol">Con alcohol</button>
+                    <button class="category-btn" data-category="sin-alcohol">Sin alcohol</button>
+                    <button class="category-btn" data-category="mocktails">Mocktails</button>
+                </div>
+                
+                <div class="size-selector-container">
+                    <button class="size-btn" data-size="chico">Chico <span class="ml-label">(250 ml)</span></button>
+                    <button class="size-btn" data-size="mediano">Mediano <span class="ml-label">(500 ml)</span></button>
+                    <button class="size-btn" data-size="grande">Grande <span class="ml-label">(1 litro)</span></button>
+                </div>
+            </aside>
+
+            <section id="panel-content-wrapper" class="center-panel">
+                </section>
+
+            <aside class="sidebar-right">
+                <div id="info-status-panel" class="status-empty">
+                    Aún no se ha seleccionado ninguna opción
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
